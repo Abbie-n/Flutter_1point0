@@ -43,7 +43,8 @@ class HelloWorldApp extends StatelessWidget {
               Expanded(
                 child: Row(
                   children: [
-                    Container(
+                   Expanded(
+                     Container(
                       height: 200,
                       width: 300,
                       decoration: BoxDecoration(
@@ -61,7 +62,9 @@ class HelloWorldApp extends StatelessWidget {
                         ),
                       ),
                     ),
-                    Container(
+                   ), 
+                   Expanded(
+                   Container(
                       height: 200,
                       width: 300,
                       decoration: BoxDecoration(
@@ -79,7 +82,8 @@ class HelloWorldApp extends StatelessWidget {
                         ),
                       ),
                     ),
-                    Container(
+                   ), 
+                    Expanded(  Container(
                       height: 200,
                       width: 300,
                       decoration: BoxDecoration(
@@ -97,7 +101,10 @@ class HelloWorldApp extends StatelessWidget {
                         ),
                       ),
                     ),
-                    Container(
+                            ),
+                  
+                    Expanded(
+                      Container(
                       height: 200,
                       width: 300,
                       decoration: BoxDecoration(
@@ -115,6 +122,8 @@ class HelloWorldApp extends StatelessWidget {
                         ),
                       ),
                     ),
+                    ),
+                    
                   ],
                 ),
               ),
