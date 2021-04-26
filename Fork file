@@ -1,0 +1,6 @@
+Recipe from Atolagbe Samuel Ninyo
+
+Row widget is not scrollable.
+So use wrap widget because it add it's children,
+in one line until there is no space left then it move to the next line,
+and keep adding the children left until everything is added on the screen.
