@@ -11,7 +11,7 @@ class HelloWorldApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.black12,
-          title:  Text(
+          title: Text(
             'Hello world',
             textDirection: TextDirection.ltr,
           ),
@@ -40,10 +40,11 @@ class HelloWorldApp extends StatelessWidget {
                   ),
                 ),
               ),
-              Expanded(
-                child: Row(
-                  children: [
-                    Container(
+              Row(
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  Expanded(
+                    child: Container(
                       height: 200,
                       width: 300,
                       decoration: BoxDecoration(
@@ -61,7 +62,9 @@ class HelloWorldApp extends StatelessWidget {
                         ),
                       ),
                     ),
-                    Container(
+                  ),
+                  Expanded(
+                    child: Container(
                       height: 200,
                       width: 300,
                       decoration: BoxDecoration(
@@ -79,7 +82,9 @@ class HelloWorldApp extends StatelessWidget {
                         ),
                       ),
                     ),
-                    Container(
+                  ),
+                  Expanded(
+                    child: Container(
                       height: 200,
                       width: 300,
                       decoration: BoxDecoration(
@@ -97,7 +102,9 @@ class HelloWorldApp extends StatelessWidget {
                         ),
                       ),
                     ),
-                    Container(
+                  ),
+                  Expanded(
+                    child: Container(
                       height: 200,
                       width: 300,
                       decoration: BoxDecoration(
@@ -115,8 +122,8 @@ class HelloWorldApp extends StatelessWidget {
                         ),
                       ),
                     ),
-                  ],
-                ),
+                  ),
+                ],
               ),
               Expanded(
                 child: Container(
