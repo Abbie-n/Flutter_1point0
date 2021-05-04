@@ -11,7 +11,7 @@ class HelloWorldApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.black12,
-          title:  Text(
+          title: Text(
             'Hello world',
             textDirection: TextDirection.ltr,
           ),
@@ -42,10 +42,11 @@ class HelloWorldApp extends StatelessWidget {
               ),
               Expanded(
                 child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Container(
-                      height: 200,
-                      width: 300,
+                      height: 100,
+                      width: 50,
                       decoration: BoxDecoration(
                         color: Colors.black26,
                       ),
@@ -62,8 +63,8 @@ class HelloWorldApp extends StatelessWidget {
                       ),
                     ),
                     Container(
-                      height: 200,
-                      width: 300,
+                      height: 100,
+                      width: 50,
                       decoration: BoxDecoration(
                         color: Colors.black26,
                       ),
@@ -80,8 +81,8 @@ class HelloWorldApp extends StatelessWidget {
                       ),
                     ),
                     Container(
-                      height: 200,
-                      width: 300,
+                      height: 100,
+                      width: 50,
                       decoration: BoxDecoration(
                         color: Colors.black26,
                       ),
@@ -98,8 +99,8 @@ class HelloWorldApp extends StatelessWidget {
                       ),
                     ),
                     Container(
-                      height: 200,
-                      width: 300,
+                      height: 100,
+                      width: 50,
                       decoration: BoxDecoration(
                         color: Colors.black26,
                       ),
